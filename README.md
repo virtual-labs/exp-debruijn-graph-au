@@ -20,7 +20,7 @@ The experiment "Construction of De Bruijn Graphs for Sequence Assembly" focuses 
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Sreelekshmi S	 | Faculty | Amrita Virtual Labs | Amrita Vishwa Vidyapeetham | sreelekshmis@am.amrita.edu
+1 | Shoumya Bharti | Student | Amrita School of Biotechnology | Amrita Vishwa Vidyapeetham | shoumyabharti696@gmail.com
 2 | Dr. Asha Vijayan | Faculty | Amrita Mind Brain Center | Amrita Vishwa Vidyapeetham | ashavijayan@am.amrita.edu
 3 | Nijin N | Faculty | Amrita Virtual Labs | Amrita Vishwa Vidyapeetham | nijinn@am.amrita.edu
 4 | Rakhi Radhamani | Faculty | Amrita Virtual Labs | Amrita Vishwa Vidyapeetham | rakhir@am.amrita.edu
