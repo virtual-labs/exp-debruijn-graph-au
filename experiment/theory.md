@@ -42,7 +42,7 @@ This step reduces the complexity of the graph structures by preserving the conne
 The Eulerian path is employed to get the output, a sequence that reconstructs the original genome. If any unnecessary sequences are present due to repeats, additional sequencing techniques such as long-read sequencing will be employed for further resolution.
 
 
-<img src="images/1.png" title="" />
+<img src="images/2.png" title="" />
 
 Figure 2. Steps in the De Bruijn Graph Assembly. Here the reads are first decomposed into k-mers. The kmers become vertices in the De-burgin graph, and the edges connect to overlapping kmers. The polymorphisms represented by the red colour form branches in the graph. The numbers above kmers represent the number of times a kmer is seen, and the contigs are built by walking the graph from the edge node.
 
