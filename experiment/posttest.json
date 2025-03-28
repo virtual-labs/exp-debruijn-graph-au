@@ -2,73 +2,70 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. The sequencing technology that benefits most from the De-Burgin graph-based sequence assembly is",
+      "question": "1. The nodes in the De Bruijn graphs represent",
       "answers": {
-        "a": "Sanger sequencing",
-        "b": "Next-generation sequencing",
-        "c": "Third-Generation Sequencing",
-        "d": "PacBio Sequencing"
+        "a": "Sequencing reads",
+        "b": "Contigs assembled from read",
+        "c": "k-mers of length k−1",
+        "d": "Nucleotides"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": " 2. The role of k-mers in De Bruijn graph construction.",
+      "answers": {
+        "a": "Represent the sequence length",
+        "b": "Determining nodes and edges in a graph.",
+        "c": "Alignment of the given DNA sequence to a reference sequence.",
+        "d": "Detecting mutation in the given sequence."
       },
       
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
-   
 
     {
-      "question": " 2. Sequence assembly refers to",
+      "question": "3. The type of path used in De Bruijn graph-based genome assembly",
       "answers": {
-        "a": "Division of the large pieces of DNA into small pieces and reading the small fragments that constitute the original DNA molecule by connecting the information on various short fragments",
-        "b": "Segmenting the smaller pieces of DNA to study the original sequence of the given DNA molecule.",
-        "c": "Integrating the smaller pieces of DNA to larger DNA sequences to study the sequence assembly of the given DNA molecule.",
-        "d": "Division of the large pieces of DNA into small pieces of DNA for sequence alignment."
-      },
-      
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-
-
-    {
-      "question": "3. Finding overlaps is specific for",
-      "answers": {
-        "a": "De Bruijn Graph approach",
-        "b": "Fitch Margolish Algorithm",
-        "c": "Overlap-Layout-Consensus approach",
-        "d": "Viterbi algorithm"
+        "a": "Shortest path",
+        "b": "Dijkstra’s Path",
+        "c": "Eulerian Path",
+        "d": "Hamiltonian Path"
       },
       
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
 
+  
+
+    {
+      "question": "4. k-mer size is too small is best to create a De-Bruijn graph.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
 
 
     {
-      "question": "4. Identify the major challenge in the construction of De Bruijn graphs.",
+      "question": "5. From the given DNA sequence AGCTGAT, identify the reads that does not belongs to the fragment of the given DNA sequence.",
       "answers": {
-        "a": "Repetitive genomic regions",
-        "b": "Selection of k-mer",
-        "c": "Sequencing errors",
-        "d": "All the above"
+        "a": "AGC",
+        "b": "GCT",
+        "c": "CTG",
+        "d": "AAA"
       },
       
       "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-
-
-    {
-      "question": "5. Choose the primary purpose of constructing a De Bruijn graph in genome assembly.",
-      "answers": {
-        "a": "Alignment of sequencing reads to a reference genome",
-        "b": "Counting the frequency of nucleotides in a genome",
-        "c": "Representation of k-mer overlaps for sequence reconstruction",
-        "d": "Finding the shortest path in a genome sequence"
-      },
-      
-      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
