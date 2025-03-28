@@ -12,7 +12,9 @@ Sequence assembly is an indispensable task in genome sequencing of new organisms
 ### Overlap-Layout-Consensus (OLC) approach 
 The Overlap-Layout-Consensus (OLC) approach is applied for long-read sequencing technologies, such as Sanger sequencing, Pacific Biosciences (PacBio), and Oxford Nanopore Technologies (ONT). This approach has key advantages in de novo genome assembly, where a reference genome is not available. Overlap defines the regions that has two or more DNA sequence reads that share identical or nearly identical nucleotide The OLC approach consists of three primary steps such as Overlap detection, Layout construction, and Consensus generation. In overlap detection Pairwise comparison of all sequencing reads was done to determine overlaps. In an overlap graph, the reads were represented as nodes, and each overlap was represented as edges. For finding sequence similarity, Smith-Waterman or BLAST algorithms were used. In the layout construction step, the reads need to be organized into a consensus sequence. This included construction of a directed graph called an overlap graph or string graph where the edge directions represent relative ordering of reads. In the consensus generation, all reads in a given contig were aligned to create a multiple sequence alignment (Figure 1). A contig represents long, continuous stretches of DNA sequence that were assembled from overlapping short sequencing reads. It is generally formed either during genome assembly or transcriptome assembly and represents regions of sequence that are reconstructed without gaps.
 
- 
+
+<img src="images/1.png" title="" />
+
 Figure 1. Steps in the Overlap layout consensus approach. Here, overlaps are found between reads, and an overlap graph is constructed where the edges indicate overlapping reads. The reads are converted into contigs based on the overlaps. Here, the dashed lines indicate overlapping portions. Finally, the most likely sequence is chosen to construct a consensus sequence.  
 
 (Adapted from: Ayling, M., Clark, M.D. and Leggett, R.M., 2020. New approaches for metagenome assembly with short reads. Briefings in bioinformatics, 21(2), pp.584-594).
@@ -38,10 +40,15 @@ This step reduces the complexity of the graph structures by preserving the conne
 
 ##### 4. Genome Reconstruction
 The Eulerian path is employed to get the output, a sequence that reconstructs the original genome. If any unnecessary sequences are present due to repeats, additional sequencing techniques such as long-read sequencing will be employed for further resolution.
- 
+
+
+<img src="images/1.png" title="" />
+
 Figure 2. Steps in the De Bruijn Graph Assembly. Here the reads are first decomposed into k-mers. The kmers become vertices in the De-burgin graph, and the edges connect to overlapping kmers. The polymorphisms represented by the red colour form branches in the graph. The numbers above kmers represent the number of times a kmer is seen, and the contigs are built by walking the graph from the edge node.
 
 (Adapted from: Ayling, M., Clark, M.D. and Leggett, R.M., 2020. New approaches for metagenome assembly with short reads. Briefings in bioinformatics, 21(2), pp.584-594).
+
+&nbsp;
 
 ### Advantages of De Bruijn graph in sequence assembly
 
