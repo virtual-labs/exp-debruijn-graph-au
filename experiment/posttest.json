@@ -2,27 +2,26 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. The sequencing technology that benefits most from the De-Burgin graph-based sequence assembly is",
+      "question": "1. The nodes in the De Bruijn graphs represent",
       "answers": {
-        "a": "Sanger sequencing",
-        "b": "Next-generation sequencing",
-        "c": "Third-Generation Sequencing",
-        "d": "PacBio Sequencing"
+        "a": "Sequencing reads",
+        "b": "Contigs assembled from read",
+        "c": "k-mers of length k−1",
+        "d": "Nucleotides"
       },
       
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
-   
 
     {
-      "question": " 2. Sequence assembly refers to",
+      "question": " 2. The role of k-mers in De Bruijn graph construction.",
       "answers": {
-        "a": "Division of the large pieces of DNA into small pieces and reading the small fragments that constitute the original DNA molecule by connecting the information on various short fragments",
-        "b": "Segmenting the smaller pieces of DNA to study the original sequence of the given DNA molecule.",
-        "c": "Integrating the smaller pieces of DNA to larger DNA sequences to study the sequence assembly of the given DNA molecule.",
-        "d": "Division of the large pieces of DNA into small pieces of DNA for sequence alignment."
+        "a": "Represent the sequence length",
+        "b": "Determining nodes and edges in a graph.",
+        "c": "Alignment of the given DNA sequence to a reference sequence.",
+        "d": "Detecting mutation in the given sequence."
       },
       
       "correctAnswer": "a",
