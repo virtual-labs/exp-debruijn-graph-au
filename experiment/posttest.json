@@ -10,7 +10,7 @@
         "d": "Nucleotides"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
 
@@ -24,50 +24,48 @@
         "d": "Detecting mutation in the given sequence."
       },
       
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
 
     {
-      "question": "3. Finding overlaps is specific for",
+      "question": "3. The type of path used in De Bruijn graph-based genome assembly",
       "answers": {
-        "a": "De Bruijn Graph approach",
-        "b": "Fitch Margolish Algorithm",
-        "c": "Overlap-Layout-Consensus approach",
-        "d": "Viterbi algorithm"
+        "a": "Shortest path",
+        "b": "Dijkstra’s Path",
+        "c": "Eulerian Path",
+        "d": "Hamiltonian Path"
       },
       
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
 
+  
+
+    {
+      "question": "4. k-mer size is too small is best to create a De-Bruijn graph.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
 
 
     {
-      "question": "4. Identify the major challenge in the construction of De Bruijn graphs.",
+      "question": "5. From the given DNA sequence AGCTGAT, identify the reads that does not belongs to the fragment of the given DNA sequence.",
       "answers": {
-        "a": "Repetitive genomic regions",
-        "b": "Selection of k-mer",
-        "c": "Sequencing errors",
-        "d": "All the above"
+        "a": "AGC",
+        "b": "GCT",
+        "c": "CTG",
+        "d": "AAA"
       },
       
       "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-
-
-    {
-      "question": "5. Choose the primary purpose of constructing a De Bruijn graph in genome assembly.",
-      "answers": {
-        "a": "Alignment of sequencing reads to a reference genome",
-        "b": "Counting the frequency of nucleotides in a genome",
-        "c": "Representation of k-mer overlaps for sequence reconstruction",
-        "d": "Finding the shortest path in a genome sequence"
-      },
-      
-      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
