@@ -1,0 +1,75 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The sequencing technology that benefits most from the De-Burgin graph-based sequence assembly is",
+      "answers": {
+        "a": "Sanger sequencing",
+        "b": "Next-generation sequencing",
+        "c": "Third-Generation Sequencing",
+        "d": "PacBio Sequencing"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+   
+
+    {
+      "question": " 2. Sequence assembly refers to",
+      "answers": {
+        "a": "Division of the large pieces of DNA into small pieces and reading the small fragments that constitute the original DNA molecule by connecting the information on various short fragments",
+        "b": "Segmenting the smaller pieces of DNA to study the original sequence of the given DNA molecule.",
+        "c": "Integrating the smaller pieces of DNA to larger DNA sequences to study the sequence assembly of the given DNA molecule.",
+        "d": "Division of the large pieces of DNA into small pieces of DNA for sequence alignment."
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. Finding overlaps is specific for",
+      "answers": {
+        "a": "De Bruijn Graph approach",
+        "b": "Fitch Margolish Algorithm",
+        "c": "Overlap-Layout-Consensus approach",
+        "d": "Viterbi algorithm"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. Identify the major challenge in the construction of De Bruijn graphs.",
+      "answers": {
+        "a": "Repetitive genomic regions",
+        "b": "Selection of k-mer",
+        "c": "Sequencing errors",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Choose the primary purpose of constructing a De Bruijn graph in genome assembly.",
+      "answers": {
+        "a": "Alignment of sequencing reads to a reference genome",
+        "b": "Counting the frequency of nucleotides in a genome",
+        "c": "Representation of k-mer overlaps for sequence reconstruction",
+        "d": "Finding the shortest path in a genome sequence"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
