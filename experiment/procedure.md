@@ -88,8 +88,6 @@ Here the nodes represent (k−1)-mers, and edges represent k-mers.
 <img src="images/p13.jpg" title="" />
 &nbsp;
 
-
-
 13.	Users can click on the rearrange button to observed re-arranged version of the De Bruijn graph.
 
 <img src="images/p14.jpg" title="" />
@@ -102,5 +100,5 @@ Here the nodes represent (k−1)-mers, and edges represent k-mers.
 <img src="images/p15.jpg" title="" />
 &nbsp;
 
-16.	Click on the Export Result button to get the step-wise construction of the graph and de-Bruijn graph of the provided input sequence. 
+15.	Click on the Export Result button to get the step-wise construction of the graph and de-Bruijn graph of the provided input sequence. 
 
