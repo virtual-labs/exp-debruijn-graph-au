@@ -1,6 +1,6 @@
 ### Learning Objectives
 
-• To understand De Bruijn graphs and their role in sequence assembly.
+• To understand de Bruijn graphs and their role in sequence assembly.
 
-• To learn to construct a simple De Bruijn graph from a given DNA sequence.
+• To learn to construct a simple de Bruijn graph from the fragments of a given DNA sequence.
 
